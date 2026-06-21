@@ -1,0 +1,19 @@
+# ============================================
+# 广告过滤规则配置文件
+# ============================================
+
+# 白名单（优先放行，不受黑名单影响）
+WHITE www.bank.com
+WHITE www.school.edu.cn
+WHITE alipay.com
+
+# 域名黑名单（整站拦截）
+DOMAIN doubleclick.net
+DOMAIN googleadservices.com
+DOMAIN googlesyndication.com
+
+# URL关键词拦截（路径匹配）
+KEYWORD /ads/
+KEYWORD /banner/
+KEYWORD /tracker
+KEYWORD /popup
