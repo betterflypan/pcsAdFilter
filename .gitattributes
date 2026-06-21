@@ -1,0 +1,7 @@
+# Ensure consistent line endings
+*.cpp text
+*.h text
+*.txt text
+*.md text
+*.vcxproj text
+*.sln text
